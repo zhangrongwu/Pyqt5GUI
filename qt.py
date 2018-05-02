@@ -12,24 +12,31 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(919, 219)
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(30, 50, 231, 61))
         self.lineEdit.setObjectName("lineEdit")
+
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_2.setGeometry(QtCore.QRect(340, 50, 231, 61))
         self.lineEdit_2.setObjectName("lineEdit_2")
+
         self.lineEdit_3 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_3.setGeometry(QtCore.QRect(670, 50, 231, 61))
         self.lineEdit_3.setObjectName("lineEdit_3")
+
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(280, 30, 48, 111))
         self.label_2.setObjectName("label_2")
+
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(580, 50, 81, 61))
         self.pushButton.setStyleSheet("font: 28pt \"Agency FB\";")
         self.pushButton.setObjectName("pushButton")
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 919, 30))
